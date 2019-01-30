@@ -9,5 +9,7 @@ Any none-digit \D
 Any word character \w
 Any non-word character \W
 Capture everything enclosed (...)
+Match either a or b: (a|b)
+zero or one of a: a?
 https://regex101.com/
 https://www.w3schools.com/tags/att_input_pattern.asp
