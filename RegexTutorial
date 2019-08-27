@@ -13,3 +13,10 @@ Match either a or b: (a|b)
 zero or one of a: a?
 https://regex101.com/
 https://www.w3schools.com/tags/att_input_pattern.asp
+
+
+Note:
+function formatNumber(num) {
+    // 1000000 => 1,000,000
+    return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")
+}
