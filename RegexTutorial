@@ -11,6 +11,15 @@ Any non-word character \W
 Capture everything enclosed (...)
 Match either a or b: (a|b)
 zero or one of a: a?
+zero or more of a: a*
+one or more of a: a+
+Exactly of a: a{3}
+3 or more of a: a{3,}
+Between 3 and 6 of a: a{3,6}
+Start of String: ^
+End of String: $
+A word boundary: \b (Ex: ^a{3}\-a{3}$ -> aaa-aaa => Mapping)
+Non-word boundary: \B
 https://regex101.com/
 https://www.w3schools.com/tags/att_input_pattern.asp
 
